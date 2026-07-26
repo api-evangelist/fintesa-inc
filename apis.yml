@@ -1,7 +1,23 @@
 aid: fintesa-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fintesa-inc.png
 name: Fintesa Inc.
-description: Fintesa Inc. is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Fintesa Inc. is a financial technology company providing comprehensive financial solutions
+  for merchants and businesses, positioning itself as a trusted financial partner. It was surfaced as a
+  portfolio company of 500 Global and added to the API Evangelist network. At the time of enrichment no
+  public API program, developer portal, or API documentation was reachable — the site sits behind a
+  bot-protection challenge and exposes no developer subdomains — so this profile remains an
+  identity-and-domain-security stub awaiting a discoverable API surface.
 url: https://raw.githubusercontent.com/api-evangelist/fintesa-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Financial Services
+- Fintech
+- Payments
+- Merchants
+- Business
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +42,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/fintesa-inc-domain-security.yml
 - type: Website
   url: https://fintesa.co
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
