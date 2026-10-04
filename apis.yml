@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fintesa-inc.png
-name: Fintesa Inc.
+name: Fintesa
 description: Fintesa Inc. is a financial technology company providing comprehensive financial solutions
   for merchants and businesses, positioning itself as a trusted financial partner. It was surfaced as a
   portfolio company of 500 Global and added to the API Evangelist network. At the time of enrichment no
@@ -41,7 +41,7 @@ created: '2026-07-17'
 modified: '2026-07-19'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Payments
 - Merchants
@@ -53,6 +53,7 @@ tags_raw:
 - Payments
 - Merchants
 - Business
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -69,3 +70,4 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-legal-name: Fintesa Inc.
